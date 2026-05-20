@@ -1,0 +1,11 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "天气查询插件，支持wttr.in和和风天气",
+  "entry": "main.py",
+  "settings_schema": [
+    {"key": "default_city", "type": "text", "label": "默认城市", "default": "天津"},
+    {"key": "source", "type": "select", "label": "数据源", "options": ["wttr.in", "和风天气"], "default": "wttr.in"},
+    {"key": "hefeng_api_key", "type": "text", "label": "和风天气API Key", "default": ""}
+  ]
+}
